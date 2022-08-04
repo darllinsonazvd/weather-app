@@ -12,6 +12,8 @@
 
 A aplicação usa a [WeatherAPI](https://www.weatherapi.com) para encontrar a temperatura em ºC, precipitação e clima atual da cidade digitada pelo usuário.
 
+Você pode visitar a aplicação clicando [aqui](https://weather-app-darllinsonazvd.vercel.app)
+
 ## ✨ Tecnologias e features
 
 - [x] ReactJS
