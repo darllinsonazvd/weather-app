@@ -18,6 +18,7 @@ A aplicação usa a [WeatherAPI](https://www.weatherapi.com) para encontrar a te
 - [x] React Hooks
 - [x] JavaScript Assíncrono
 - [x] Tailwind CSS
+- [x] Phosphor Icons
 - [x] [WeatherAPI](https://www.weatherapi.com)
 - [x] Mobile first
 - [x] Layout responsivo
