@@ -2,8 +2,11 @@ import React from 'react';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello world!</h1>
+    <div className="flex justify-center items-center w-full h-screen">
+      <form>
+        <input type="text" placeholder="Cidade" />
+        <button type="submit">Pesquisar</button>
+      </form>
     </div>
   );
 }
