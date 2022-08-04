@@ -1,11 +1,13 @@
 import propTypes from 'prop-types';
 import React from 'react';
 
+import { CloudSlash } from 'phosphor-react';
+
 export default function Card({ data }) {
   const { location, current } = data;
 
   return (
-    <div className="p-6 mt-10 rounded-lg shadow-xl bg-white">
+    <div className="min-w-[240px] p-6 mt-10 rounded-lg shadow-xl bg-white">
       <div className="text-center">
         <span className="block text-xl font-bold text-slate-800">
           {location.name}
@@ -20,8 +22,12 @@ export default function Card({ data }) {
         <span className="mt-2 text-2xl">ºC</span>
       </div>
 
-      <div className="text-center">
-        <img src={current.condition.icon} alt="Weather icon" />
+      <div className="flex flex-col justify-center items-center">
+        {current.condition.icon === '-' ? (
+          <CloudSlash size={48} color="#1E293B" />
+        ) : (
+          <img src={current.condition.icon} alt="Weather icon" />
+        )}
         <span className="text-slate-800 font-medium">
           {current.condition.text}
         </span>

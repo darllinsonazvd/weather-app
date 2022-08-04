@@ -10,7 +10,7 @@ const initialData = {
     temp_f: 0,
     condition: {
       text: '-',
-      icon: '//www.pngrepo.com/png/174598/180/delete-from-cloud-outlined-button.png',
+      icon: '-',
     },
   },
 };
